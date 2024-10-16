@@ -14,7 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-            System.out.println("Ingrese la cantidad de personas del listado: "+ scanner);
+            System.out.println("Ingrese la cantidad de personas del listado: " );
             cantidadPersonas = scanner.nextInt();
             scanner.nextLine();
         
@@ -29,7 +29,7 @@ public class Main {
         }
 
 
-        System.out.println("Valor de la persona a encontar : "+);
+        System.out.println("Valor de la persona a encontar : ");
         cantidadPersonas=scanner.nextInt();
         scanner.nextLine();
     }
@@ -64,7 +64,4 @@ public class Main {
         }
         return -1;
     }
-
-
-
 }
